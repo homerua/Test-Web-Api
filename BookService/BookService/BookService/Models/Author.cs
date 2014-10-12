@@ -8,6 +8,9 @@ namespace BookService.Models
 {
     public class Author
     {
+        /// <summary>
+        /// ///////class Author//////
+        /// </summary>
         public int Id { get; set; }
 
         [Required]
