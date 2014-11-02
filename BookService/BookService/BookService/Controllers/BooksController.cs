@@ -107,7 +107,7 @@ namespace BookService.Controllers
                 Title = book.Title,
                 AuthorName = book.Author.Name
             };
-            return CreatedAtRoute("DefaultApi", new { id = book.Id }, book);
+            return CreatedAtRoute("DefaultApi", new { id = book.Id }, dto);
         }
 
         // DELETE: api/Books/5
